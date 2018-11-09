@@ -1,0 +1,19 @@
+Begin Object Class=/Script/Flex.FlexContainer Name="flexSurfaceContainerOpaque"
+   Radius=20.000000
+   MaxParticles=32000
+   NumSubsteps=2
+   MaxVelocity=1000.000000
+   Damping=0.100000
+   CollisionDistance=1.000000
+   ParticleFriction=0.300000
+   Drag=0.050000
+   Lift=0.030000
+   Fluid=True
+   RestDistance=0.550000
+   Cohesion=0.015000
+   Viscosity=5.000000
+   AnisotropyScale=1.000000
+   AnisotropyMax=1.000000
+   PositionSmoothing=1.000000
+   FluidSurface=FlexFluidSurface'"/Game/TestPackages/Flex/flexSurfaceOpaque.flexSurfaceOpaque"'
+End Object

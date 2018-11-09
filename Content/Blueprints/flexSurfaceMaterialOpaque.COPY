@@ -1,0 +1,46 @@
+Begin Object Class=/Script/Engine.Material Name="flexSurfaceMaterialOpaque"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_59"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_59"
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.116575,G=0.840000,B=0.686329,A=-107374176.000000)
+      MaterialExpressionEditorX=16
+      MaterialExpressionGuid=084727B649ADEE2E7AD73D93EF9ED52E
+      Material=Material'"flexSurfaceMaterialOpaque"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=0.280000
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=4AD46E7948BBFFE3E2858A89A9B0ED4C
+      Material=Material'"flexSurfaceMaterialOpaque"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_2"')
+   Opacity=(OutputIndex=-1)
+   BlendMode=BLEND_Masked
+   OpacityMaskClipValue=0.000000
+   Refraction=(OutputIndex=-1)
+   bEnableSeparateTranslucency=False
+   bEnableResponsiveAA=True
+   TwoSided=True
+   TranslucencyLightingMode=TLM_VolumetricDirectional
+   TranslucencyDirectionalLightingIntensity=1.006171
+   bGenerateSphericalParticleNormals=True
+   bUsedWithParticleSprites=True
+   bUsedWithStaticLighting=True
+   bUsedWithFlexFluidSurfaces=True
+   EditorX=272
+   EditorY=64
+   Expressions(0)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_2"'
+   StateId=42C7098544A7A148E4818483C2C4B55F
+   LightmassSettings=(bCastShadowAsMasked=True)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_59"'
+   LightingGuid=2164D79A41D02E6ADAD12FA46ABF8799
+End Object

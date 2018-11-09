@@ -1,0 +1,6 @@
+Begin Object Class=/Script/Flex.FlexFluidSurface Name="flexSurfaceOpaque"
+   SmoothingRadius=12.000000
+   MaxRadialSamples=10
+   ThicknessParticleScale=0.000000
+   Material=Material'"/Game/TestPackages/Flex/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque"'
+End Object
