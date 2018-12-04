@@ -3,16 +3,10 @@
 	"EngineAssociation": "{2199BC7F-440B-23ED-DE76-CBB599CF363A}",
 	"Category": "",
 	"Description": "",
-	"Modules" : 
-	[
+	"Plugins": [
 		{
-			"Name" : "FlexProject",
-			"Type" : "Runtime",
-			"LoadingPhase" : "Default",
-			"AdditionalDependencies" : [
-				"Engine",
-				"FLEX"
-				]
+			"Name": "Paper2D",
+			"Enabled": true
 		}
 	]
 }
