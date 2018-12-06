@@ -3,10 +3,26 @@
 	"EngineAssociation": "{2199BC7F-440B-23ED-DE76-CBB599CF363A}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Prototype",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "Paper2D",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"AllDesktop",
+		"LinuxNoEditor",
+		"MacNoEditor",
+		"WindowsNoEditor"
 	]
 }
